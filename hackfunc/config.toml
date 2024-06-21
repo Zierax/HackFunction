@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "HackFunction"
+version = "1.0.0"
+description = "A toolkit for basic security checks and scans"
+readme = { content-type = "text/markdown" }
+authors = [{ name = "Zierax", email = "zs.01117875692@gmail.com" }]
+license = { text = "MIT" }
+dependencies = [
+    "requests",
+    "beautifulsoup4",
+    "dnspython",
+    "python-whois",
+    "python-nmap",
+    "scapy",
+    "dns.resolver",
+    "ping3",
+]
+optional-dependencies = { testing = ["pytest"] }
+requires-python = ">=3.6"
+
+[project.urls]
+"Homepage" = "https://github.com/Zierax/HackFunction"
+"Documentation" = "https://github.com/Zierax/HackFunction/docs"
+"Source" = "https://github.com/Zierax/HackFunction"
+"Tracker" = "https://github.com/Zierax/HackFunction/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
