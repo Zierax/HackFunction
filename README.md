@@ -1,6 +1,6 @@
-Hackit Library <img src="https://img.shields.io/badge/version-1.0.0-blue.svg" alt="Version">
+HackFunction Library <img src="https://img.shields.io/badge/version-1.0.0-blue.svg" alt="Version">
   
-Hackit is a comprehensive Python library designed for cybersecurity professionals and enthusiasts. It offers a suite of tools for vulnerability scanning, information gathering, and network scanning, making it an essential toolkit for security assessments.
+HackFunction is a comprehensive Python library designed for cybersecurity professionals and enthusiasts. It offers a suite of tools for vulnerability scanning, information gathering, and network scanning, making it an essential toolkit for security assessments.
   
 
 Table of Contents
@@ -21,15 +21,15 @@ Hackit is crafted to assist in identifying system vulnerabilities, gathering ess
 Installation
 To get started with Hackit, you can install it directly from PyPI using pip:
 ```
-pip install hackit
+pip install hackfunc
 ```
   
 Alternatively, you can clone the repository and install the required dependencies:
   
 ```
-git clone https://github.com/Zierax/hackit.git
-cd hackit
-Install Dependencies
+git clone https://github.com/Zierax/HackFunction.git
+cd HackFunction
+python setup.py
 ```  
   
 Modules Overview
